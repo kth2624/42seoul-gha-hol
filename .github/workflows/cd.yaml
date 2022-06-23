@@ -8,11 +8,9 @@ on:
         required: false
         default: apiapp
 
-
 jobs:
- release:
+  release:
     name: Release Apps
-    needs: release-dev
 
     runs-on: ubuntu-latest
 
