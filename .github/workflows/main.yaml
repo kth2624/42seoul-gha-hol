@@ -19,12 +19,12 @@ jobs:
       shell: pwsh
       run: |
         echo "Hello World from step 2"
-        echo "VALUE: $env:STEP_VALUE_1"
-        echo "VALUE: ${{ env.STEP_VALUE_1 }}"
+        echo "VALUE: $env:STEP_VALUES_1"
+        echo "VALUE: ${{ env.STEP_VALUES_1 }}"
 
     - name: Say Hello World 3
       shell: bash
       run: |
         echo "Hello World from step 3"
-        echo "VALUE: STEP_VALUE_1"
-        echo "VALUE: ${{ env.STEP_VALUE_1 }}"
+        echo "VALUE: STEP_VALUES_1"
+        echo "VALUE: ${{ env.STEP_VALUES_1 }}"
